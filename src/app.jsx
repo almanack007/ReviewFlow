@@ -17,7 +17,7 @@ const Login = ({ onLogin }) => {
   return (
     <div className="login-container">
       <div className="login-box">
-        <h1 className="login-title">AI Reputation Responder</h1>
+        <h1 className="login-title">Catchit </h1>
         <p className="login-subtitle">Log in to manage your reviews</p>
         <form onSubmit={handleSubmit}>
           {error && <p className="error-message">{error}</p>}
